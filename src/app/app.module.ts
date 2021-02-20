@@ -23,7 +23,9 @@ import { AngularFireDatabaseModule } from "@angular/fire/database";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { ToastrModule } from "ngx-toastr";
 import { PostComponent } from './components/post/post.component';
-// import { AngularFontAwesomeModule } from 'angular-font-awesome';
+
+
+
 
 
 @NgModule({
