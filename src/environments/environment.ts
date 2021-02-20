@@ -4,6 +4,7 @@
 
 export const environment = {
   production: true,
+  baseUrl:'https://inspired-gram.netlify.app',
   firebase : {
     apiKey: "AIzaSyBpkjOopbdNqFjmQs9_W36L4Q4cOzC98RY",
     authDomain: "inpired-gram.firebaseapp.com",
