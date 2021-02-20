@@ -2,6 +2,8 @@
 @import'~bootstrap/dist/css/bootstrap.min.css';
 @import"~ngx-toastr/toastr";
 
+@import"../node_modules/font-awesome/css/font-awesome.css";
+
 body {
     position: relative;
     min-width: 100%;

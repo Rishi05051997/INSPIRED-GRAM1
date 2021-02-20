@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PostsComponent } from './components/posts/posts.component';
+
 import { UserComponent } from './components/user/user.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
@@ -22,13 +22,14 @@ import { AngularFireDatabaseModule } from "@angular/fire/database";
 
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { ToastrModule } from "ngx-toastr";
+import { PostComponent } from './components/post/post.component';
+// import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
-// import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 
 @NgModule({
   declarations: [
     AppComponent,
-    PostsComponent,
+   
     UserComponent,
     HeaderComponent,
     FooterComponent,
@@ -36,14 +37,15 @@ import { ToastrModule } from "ngx-toastr";
     AddpostComponent,
     PageNotFOundComponent,
     SigninComponent,
-    SignupComponent
+    SignupComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-
-    // FontAwesomeModule,
+    // AngularFontAwesomeModule,
+   
 
     BrowserAnimationsModule,
     ToastrModule.forRoot(),
