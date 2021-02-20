@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: true,
+  firebase : {
+    apiKey: "AIzaSyBpkjOopbdNqFjmQs9_W36L4Q4cOzC98RY",
+    authDomain: "inpired-gram.firebaseapp.com",
+    databaseURL: "https://inpired-gram-default-rtdb.firebaseio.com",
+    projectId: "inpired-gram",
+    storageBucket: "inpired-gram.appspot.com",
+    messagingSenderId: "638533410941",
+    appId: "1:638533410941:web:ae8a78596f576829cbd114",
+    measurementId: "G-MGXFVFHWEQ"
+  }
 };
 
 /*
